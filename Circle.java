@@ -19,9 +19,9 @@ public class Circle {
         square = pi*r*r;
         length = 2*pi*r;
 
-        System.out.println("Square is " + square);
+        System.out.format("Square is %.2f\n", square);
 
 
-        System.out.println("Length is " + length);
+        System.out.format("Length is %.2f\n", length);
     }
 }
